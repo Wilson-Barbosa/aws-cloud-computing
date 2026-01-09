@@ -6,6 +6,7 @@ Concepts of cloud computing using [AWS Educate program](https://aws.amazon.com/e
   - [Definition](#definition)
   - [AWS](#aws)
   - [AWS's suggested path](#awss-suggested-path)
+- [Shared Responsability Model](#shared-responsability-model)
 - [AWS Core Services](#aws-core-services)
   - [Storage solutions](#storage-solutions)
   - [Interacting with S3 services](#interacting-with-s3-services)
@@ -37,6 +38,19 @@ AWS Educate suggests taking these courses in following order:
 5. Getting Started with Cloud Operations
 6. Getting Started with Security
 7. Getting Started with Serverless
+
+## Shared Responsability Model
+Security is important, and when working with data in the cloud a model of security is often used, <b>Shared responsability model</b>. It builds the foundation of security, compliance and responsabilities between the cloud provider and the user. Different cloud providers implement this model in their own way.
+
+Cloud providers are responsible for what's called security <i>of</i> the cloud. For example: the infrastructure of the data centers, like the buildings, cooling and equipment, servers and networking;  
+
+Although this applicable to the cloud as a whole each service might have a different set of responsabilities. This is one the most important concepts in the security in the cloud: the more managed the service is the more shifts to the cloud provider. This division brings upon three types of services:
+
+1. <b>Infrastructure as a Service (IaaS): </b> service like EC2, is where the user has the most responsabilities, such as applications, permissions, firewall, OS management and more.
+2. <b>Platform as a Service (PaaS): </b> services like RDS have almost equal resposability distribution 
+3. <b>Software as a Service (SaaS): </b> amazon workmail is managed <i>almost</i> entirely by aws, with small share from the user. 
+
+It's also important to note that in either case, the customer always has some level of responsability, no matter what, and aws doesn't protect against configuration errors or inappropriate security access, for example. 
 
 ## AWS Core Services
 
