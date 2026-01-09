@@ -1,6 +1,8 @@
 # AWS and Cloud Computing
 Concepts of cloud computing using [AWS Educate program](https://aws.amazon.com/education/awseducate/).
 
+In depth official material can be found at [AWS Skill Builder](https://aws.amazon.com/training/)
+
 ## Table of contents
 - [Cloud Computing](#cloud-computing)
   - [Definition](#definition)
